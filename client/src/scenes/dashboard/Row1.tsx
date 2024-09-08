@@ -3,7 +3,7 @@ import DashboardBox from "@/components/DashboardBox";
 import { useGetKpisQuery } from "@/state/api";
 import { useTheme } from "@mui/material";
 import { useMemo } from "react";
-import {useMonth} from "../../context/MonthContext.jsx"
+import {useMonth} from "../../context/MonthContext.js"
 import {
   ResponsiveContainer,
   CartesianGrid,

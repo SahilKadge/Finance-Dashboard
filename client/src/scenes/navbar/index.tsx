@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PixIcon from "@mui/icons-material/Pix";
 import { Box, Typography, useTheme, Button } from "@mui/material";
 import FlexBetween from "@/components/FlexBetween";
-import { useMonth } from "../../context/MonthContext.jsx";
+import { useMonth } from "../../context/MonthContext.js";
 
 type Props = {};
 
