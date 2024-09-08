@@ -9,7 +9,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   const { isMonthly, toggleIsMonthly, selectedMonth, setSelectedMonth } = useMonth(); // Access context values
-  const handleMonthChange = (event) => {
+  const handleMonthChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedMonth(event.target.value);
     console.log(event.target.value);
   };
